@@ -1,7 +1,10 @@
+/*clears text boxes*/
+document.getElementById('textIn').value = '';
+//--------------------------------------------------
 function myFunc() {
 
-    var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-    var rot = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+    var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz .!@#$%^&*()";
+    var rot = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm .!@#$%^&*()";
     //----------------------------------------------------------------
     var input = document.getElementById("textIn").value;
     var output = ""; //leave empty
@@ -13,6 +16,5 @@ function myFunc() {
     }
     //----------------------------------------------------------------
 
-    document.getElementById('textOut').value = output; //sets the text box content to the output
+    document.getElementById('textIn').value = output; //sets the text box content to the output
 }
-
