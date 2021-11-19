@@ -3,8 +3,8 @@ document.getElementById('textIn').value = '';
 //--------------------------------------------------
 function myFunc() {
 
-    var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz .!@#$%^&*()";
-    var rot = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm .!@#$%^&*()";
+    var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz .!@#$%^&*()1234567890,/;'-=>?:_+|[]{}";
+    var rot = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm .!@#$%^&*()1234567890,/;'-=>?:_+|[]{}";
     //----------------------------------------------------------------
     var input = document.getElementById("textIn").value;
     var output = ""; //leave empty
